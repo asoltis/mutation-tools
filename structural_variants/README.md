@@ -1,8 +1,7 @@
 # Structural variant analysis tools
 
-#################
-# SV clustering #
-#################
+SV clustering:
+--------------
 
 Scripts for clustering single and multi-sample SV calls (clustering/ folder).
 As implemented in [Soltis et al. Cell Rep Med 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9729884/pdf/main.pdf):
