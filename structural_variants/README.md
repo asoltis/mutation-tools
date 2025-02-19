@@ -4,11 +4,13 @@ SV clustering:
 --------------
 
 Scripts for clustering single and multi-sample SV calls (clustering/ folder).
+
 As implemented in [Soltis et al. Cell Rep Med 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9729884/pdf/main.pdf):
     - Methods described in "Somatic structural variant clustering" section
     - Results from procedures as displayed in supplementary Figure S4C
 
 Scripts:
+    
     - cluster_individual_sample_SV_chains.py
         - clusters single sample SV calls, allowing for "chains" of SVs
         - Creates a breakend graph where an edge between two SVs is created if either of the two ends intersect within a threshold Dt
